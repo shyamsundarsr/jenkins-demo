@@ -3,6 +3,7 @@ package com.bribebybytes;
 public class OddEven {
 	
 
+	int num1;
 	public boolean isEvenNumber(int number){
 		
 		boolean result = false;

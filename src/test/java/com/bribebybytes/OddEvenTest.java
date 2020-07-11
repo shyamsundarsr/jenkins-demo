@@ -9,13 +9,13 @@ public class OddEvenTest {
 	@Test
 	public void evenTest() {
 		OddEven meo = new OddEven();
-        assertEquals("Even number", true, meo.isEvenNumber(13));
+        assertEquals("Even number", true, meo.isEvenNumber(14));
 	}
 	
 	@Test
 	public void oddTest() {
 		OddEven meo = new OddEven();
-        assertEquals("Odd number", true, meo.isOddNumber(14));
+        assertEquals("Odd number", true, meo.isOddNumber(13));
 	}
 
 }

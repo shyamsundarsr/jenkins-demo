@@ -9,7 +9,7 @@ public class OddEvenTest {
 	@Test
 	public void evenTest() {
 		OddEven meo = new OddEven();
-        assertEquals("Even number", true, meo.isEvenNumber(19));
+        assertEquals("Even number", true, meo.isEvenNumber(10));
 	}
 	
 	@Test
